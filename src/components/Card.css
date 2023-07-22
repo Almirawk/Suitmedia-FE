@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+  
+  .vertical-card {
+    max-width: 18rem;
+    width: 100%;
+  }
+
+  .card-header {
+    border-bottom: none;
+  }
+
+  .card-header img {
+    display: block;
+    margin: 0 auto; 
+  }
+
+  .card-body {
+    text-align: center; 
+  }
+  
